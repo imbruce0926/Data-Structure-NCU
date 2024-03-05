@@ -1,0 +1,99 @@
+Quick Sort
+
+Description
+
+	由於同學們資結的期中考成績不盡理想，小貴決定要把成績不及格的同學抓出來釘一番、考得好的同學好好的獎勵一番
+
+	請幫小貴寫一支程式來排序同學們的成績
+
+	如果沒有準時寫出來小貴將會拿出壓箱寶的考題來放在期末考中
+
+
+Input
+	首先輸入一個整數 N 代表學生的總數
+
+	接著依序輸入學生的姓名與其成績(中間以空格隔開)
+
+	0 < N <= 1000000
+
+
+Output
+	以 Quick Sort 依序輸出每個 pivot 所應放置的正確 index 位置並換行 (pivot從最左邊開始)
+
+	接著再依成績由小到大排序，若學生成績相同，則以字典序較大的排前面(而左邊或右邊的成績、姓名皆等於pivot時視同需要交換，請參考測資2的輸入輸出)
+
+	依序輸入學生的姓名、成績(中間以空格隔開)並換行
+
+
+Sample Input 1 
+
+10
+Tom 26
+Merry 5
+Eric 37
+Terry 1
+Jennifer 61
+Cathy 11
+John 59
+Emily 15
+Josh 48
+Amy 26
+
+Sample Output 1
+
+The index of the 1-th pivot is 4.
+The index of the 2-th pivot is 2.
+The index of the 3-th pivot is 0.
+The index of the 4-th pivot is 9.
+The index of the 5-th pivot is 5.
+The index of the 6-th pivot is 8.
+The index of the 7-th pivot is 7.
+Terry 1
+Merry 5
+Cathy 11
+Emily 15
+Tom 26
+Amy 26
+Eric 37
+Josh 48
+John 59
+Jennifer 61
+
+Sample Input 2 
+
+10
+Jay 87
+Cathy 87
+Jolyn 87
+Jay 87
+Jay 87
+Amanda 87
+Jay 87
+Jay 87
+Jay 87
+Jay 87
+
+Sample Output 2
+
+The index of the 1-th pivot is 5.
+The index of the 2-th pivot is 3.
+The index of the 3-th pivot is 1.
+The index of the 4-th pivot is 9.
+The index of the 5-th pivot is 8.
+The index of the 6-th pivot is 7.
+Jolyn 87
+Jay 87
+Jay 87
+Jay 87
+Jay 87
+Jay 87
+Jay 87
+Jay 87
+Cathy 87
+Amanda 87
+
+Hint
+
+	找pivot的方法可以參考講義 (first, middle, last)
+
+	作業繳交期限至2022/12/23(五) 23:59

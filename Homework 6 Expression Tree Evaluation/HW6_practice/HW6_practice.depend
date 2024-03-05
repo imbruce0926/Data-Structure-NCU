@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1671001989 source:c:\users\adm\desktop\big four up\data structure\homework 5 tree traversal\hw6_practice\main.cpp
+	<iostream>
+	<string>
+	<queue>
+

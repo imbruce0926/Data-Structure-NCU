@@ -1,0 +1,57 @@
+insert 1
+insert 3
+insert 7
+insert -1
+insert 9
+insert 2
+height
+traversal
+
+insert 1
+insert 3
+insert 7
+insert -1
+insert 9
+insert 2
+search 4
+height
+traversal
+
+insert 1
+insert 3
+insert 7
+delete 4
+
+insert 1
+insert 3
+insert 7
+insert -1
+insert 9
+insert 2
+delete 5
+traversal
+
+insert 1
+insert 3
+traversal
+
+insert 1
+insert 3
+insert 7
+insert -1
+insert 9
+insert 2
+delete -1
+delete -1
+delete -1
+delete -1
+delete 3
+traversal
+
+insert 1
+insert 3
+insert 7
+insert -1
+insert 9
+insert 2
+traversal

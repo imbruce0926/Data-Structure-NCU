@@ -1,0 +1,55 @@
+Description
+
+	小毅是個很愛護樹的人，有天他突發奇想，算式是不是也能用 binary tree 來呈現呢
+
+	請幫小毅寫一隻程式來計算 Expression tree 所表示的值
+
+
+Input
+	第一行輸入一個正整數 H，代表 Binary Tree 的高度為 H
+
+	接下來以 Level Order 的方式輸入 Binary Tree
+
+	若該位置為空則輸入 -1
+
+	Operator : +, -, *, /
+
+	Operand : 0 ~ 9
+
+	每個輸入之間以空格作為間隔
+
+	0 < H <= 20
+
+範例輸入 :
+
+	3
+
+	*
+
+	+ 8
+
+	2 3 -1 -1
+
+
+Output
+	輸出該 Expression Tree 之計算結果
+
+	如範例輸入應輸出 : 40
+
+
+Sample Input 1 
+
+3
+*
++ 8
+2 3 -1 -1
+
+Sample Output 1
+
+40
+
+Hint
+
+	測資輸出結果可能很大，請小心處理
+
+	作業繳交期限至2022/11/11 23:59

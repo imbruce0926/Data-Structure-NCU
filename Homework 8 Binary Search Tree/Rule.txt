@@ -1,0 +1,168 @@
+Description
+
+	小豪有天走在路上，被樹的惡魔纏上了，需要實作出以下 BST 的操作樹的惡魔才會放過他
+
+	請幫小豪掙脫樹的惡魔
+
+
+
+請實作出以下BST的指令
+
+	insert x : 將整數 x 插入 BST 中
+
+	delete x : 將 BST 中的 data 為 x 的節點刪除 若BST中沒有 data 為 x 的節點則輸出cannot delete (若刪除的節點有兩個child 則以左子樹中 data 最大的節點取代)
+
+	search i : 輸出此時 BST 中第 i 小的 data
+
+	height : 輸出此時 BST 的樹高
+
+	traversal : 輸出此 BST 的 level order traversal (每個輸出中間空格隔開)
+
+
+Input
+
+	輸入一連串指令直到 traversal 執行完就結束程式 0 < 指令個數 <= 1000
+
+	範例 :
+
+	insert 1
+
+	insert 3
+
+	insert 2
+
+	insert 5
+
+	delete 4
+
+	search 3
+
+	delete 3
+
+	height
+
+	traversal
+
+
+Output
+
+	若指令有輸出則輸出結果並換行
+
+	上述的範例輸出為
+
+	cannot delete
+
+	3
+
+	3
+
+	1 2 5
+
+
+Sample Input 1 
+
+insert 1
+insert 3
+insert 7
+insert -1
+height
+insert 9
+search 4
+insert 2
+delete -1
+delete 3
+height
+traversal
+
+Sample Output 1
+
+3
+7
+4
+1 2 7 9
+
+Sample Input 2 
+
+height
+height
+height
+delete 379890091
+delete -1250191412
+insert 1032405849
+search 1
+delete 304885430
+height
+height
+delete 126092712
+height
+search 1
+search 1
+height
+height
+delete 1032405849
+insert -523962181
+delete 2105411255
+search 1
+search 1
+search 1
+height
+height
+height
+search 1
+search 1
+delete 11552007
+insert -2100752748
+delete 1181838923
+search 1
+height
+insert -416704864
+search 2
+delete 2066446605
+search 1
+delete -416704864
+insert 1350807388
+delete -2100752748
+height
+traversal
+
+Sample Output 2
+
+0
+0
+0
+cannot delete
+cannot delete
+1032405849
+cannot delete
+1
+1
+cannot delete
+1
+1032405849
+1032405849
+1
+1
+cannot delete
+-523962181
+-523962181
+-523962181
+1
+1
+1
+-523962181
+-523962181
+cannot delete
+cannot delete
+-2100752748
+2
+-523962181
+cannot delete
+-2100752748
+2
+-523962181 1350807388 
+
+Hint
+
+BST 中不應該有重複的 data 出現
+若 BST 為空則輸出一行空
+作業繳交期限至2022/12/02 23:59

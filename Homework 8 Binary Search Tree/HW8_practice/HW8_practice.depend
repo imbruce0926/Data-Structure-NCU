@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1671024946 source:c:\users\adm\desktop\big four up\data structure\homework 8 binary search tree\hw8_practice\main.cpp
+	<iostream>
+	<queue>
+	<stack>
+
