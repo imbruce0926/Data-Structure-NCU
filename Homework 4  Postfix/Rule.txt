@@ -1,0 +1,42 @@
+Description
+
+	小豪有一天去餐廳吃飯，看到了餐廳外面有標榜會資料結構的學生能夠打5折
+
+	其中要進餐廳之前要先解決一道 Infix 轉成 Postfix 的題目
+
+	小豪這時候才發現他沒有好好的上張老師的資料結構課而懊悔不已
+
+	請你幫小豪寫一隻程式來將 Infix 轉為 Postfix
+
+
+Input
+	第一行輸入一個正整數N ， 代表有N個 Infix 要轉為 Postfix
+
+	接下來輸入N行 Infix
+
+	注意 : 每行 Infix 內的operators、operands後面皆會接上一個空格
+
+	operator只有+ - * /（ ）
+
+	operands 皆為 0 ~ 9 之間
+
+	0 < N <= 1000 , 0 <字串長度<=1000
+
+
+Output
+	對於每個 Infix 輸入測資，請輸出其 Postfix 並換行
+
+	注意 : 每行 Postfix 內的 operators、operands後面皆會接上一個空格
+
+Sample Input 1 
+
+3
+( 3 + 4 ) 
+( 5 - ( 2 * 3 ) ) 
+( ( 7 / 3 ) + ( 4 - ( 3 * 7 ) ) ) 
+
+Sample Output 1
+
+3 4 +
+5 2 3 * -
+7 3 / 4 3 7 * - +
